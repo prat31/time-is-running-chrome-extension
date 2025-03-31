@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    width: 280px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3px;
+}
+
+#time-left-year {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: bold;
+     color: #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #eee;
+    margin: 15px 0;
+}
+
+#birthday-section label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+#birthday-section input[type="date"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#birthday-section button {
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#birthday-section button:hover {
+    background-color: #45a049;
+}
+
+.status {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.status.success { color: green; }
+.status.error { color: red; }
+.status.info { color: #555; }
+
+#life-stats {
+     margin-top: 10px;
+}

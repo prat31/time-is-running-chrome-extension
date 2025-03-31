@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Life & Year Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Year Countdown</h2>
+    <p><strong>Time left in year:</strong></p>
+    <div id="time-left-year">Calculating...</div>
+    <p><strong>Weekends left in year:</strong> <span id="weekends-left-year">Calculating...</span></p>
+
+    <hr>
+
+    <h2>Life Estimate (Assuming 80 years)</h2>
+    <div id="birthday-section">
+        <label for="birthday">Enter your birthday:</label>
+        <input type="date" id="birthday">
+        <button id="save-birthday">Save & Calculate</button>
+        <p id="birthday-status" class="status"></p>
+    </div>
+
+    <div id="life-stats" style="display: none;">
+         <p><strong>Estimated weekends left in life:</strong> <span id="weekends-left-life">Calculating...</span></p>
+         <p><strong>Estimated life % remaining:</strong> <span id="life-percent-left">Calculating...</span></p>
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
